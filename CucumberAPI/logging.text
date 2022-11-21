@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -32.2564136,
+        "lng": 33.365248
+    },
+    "accuracy": 44,
+    "name": "Madhav",
+    "phone_number": "(+91) 890 765 4321",
+    "address": "Gujrath",
+    "types": [
+        "Malprabha river",
+        "Forest",
+        "Wild animals can be seen here"
+    ],
+    "website": null,
+    "language": "Gujrathi"
+}
+HTTP/1.1 200 OK
+Date: Fri, 14 Oct 2022 08:48:43 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e03e81ad683bd16650f499246ab45731",
+    "scope": "APP",
+    "reference": "b9c89cb332f662adc31945ed6b7a9759b9c89cb332f662adc31945ed6b7a9759",
+    "id": "b9c89cb332f662adc31945ed6b7a9759"
+}
